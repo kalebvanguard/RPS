@@ -9,9 +9,14 @@
 body {
     background-color: teal;
 }
+
 header {
 background: white;
 padding: 10px;
+}
+
+header > button{
+cursor: pointer;
 }
 
 header > h1{
@@ -34,9 +39,10 @@ header > h1{
 }
 
 .badge{
-    background-color: tomato;
+    background-color: rgba(0, 255, 255, 0.753);
     color: white;
     font-size: 40px;
+    font-weight: bolder;
     padding: 2px 10px;
     font-family: Asap; sans-serif;
 }

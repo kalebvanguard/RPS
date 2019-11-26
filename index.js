@@ -18,21 +18,21 @@ function getCompChoice() {
 function convertToWord(letter) {
     if (letter === "r") return "Rock"
     if (letter === "p") return "Paper"
-    return "scissors"
+    return "Scissors"
 }
 
 function win(userChoice, compChoice) {
     userScore ++;
     userScore_span.innerHTML = userScore; 
     compScore_span.innerHTML = compScore;
-    result_p.innerHTML = convertToWord(userChoice) + " beats " + convertToWord(compChoice) + " You WIN!"
+    result_p.innerHTML = convertToWord(userChoice) + " beats " + convertToWord(compChoice) + "  You WIN!!!"
 }
 
 function lose(userChoice, compChoice) {
     compScore ++;
     compScore_span.innerHTML = compScore;
     userScore_span.innerHTML = userScore; 
-    result_p.innerHTML = convertToWord(userChoice) + " beats " + convertToWord(compChoice) + " You LOSE!"
+    result_p.innerHTML = convertToWord(userChoice) + " beats " + convertToWord(compChoice) + "  You LOSE!!!"
 }    
 
 function draw(userChoice, compChoice) {
