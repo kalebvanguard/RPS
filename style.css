@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: teal;
+}
+header {
+background: white;
+padding: 10px;
+}
+
+header > h1{
+    color: teal;
+    text-align: center;
+    font-family: Asap; sans-serif;
+}
+
+.score-board {
+    margin: 10px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: Asap; sans-serif;
+    position: relative;
+}
+
+.badge{
+    background-color: tomato;
+    color: white;
+    font-size: 40px;
+    padding: 2px 10px;
+    font-family: Asap; sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -100px;
+}
+
+#comp-label {
+    position: absolute;
+    top: 30px;
+    right: -123px;
+}
+
+.result {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: Asap; sans-serif;
+    margin: 50px 0;
+}
+
+.choices {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.choice {
+    margin: 10 10;
+    display: inline-block; 
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: cyan;
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-family: Asap; sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    
+}
